@@ -39,7 +39,9 @@ body {
     padding-bottom: 50px;
 }
 .footer {
-    background-color: rgb(198, 198, 198);}
+    background-color: #5151a3;
+    color :#f7f7f7
+}
 .footer-row {
     display: flex;
     flex-wrap: wrap;
