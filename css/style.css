@@ -157,6 +157,10 @@ nav {
     border-radius: 5px;
     padding: 5px 10px;
 }
+.bold1 {
+    font-size: 25px;
+    font-weight: bold;
+}
 @media screen and (min-width:768px) {
     .col {width:50%;}
     .t-cards{width: 50%;}
