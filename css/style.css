@@ -1,0 +1,165 @@
+@font-face {
+    font-family: "yekan";
+    src: url(../fonts/yekan/Yekan.ttf);
+}
+@font-face {
+    font-family: 'lalezar';
+    src: url(../fonts/Lalezar-Font/TTF/Lalezar-Regular.ttf);
+}
+@font-face {
+    font-family: 'vazir';
+    src: url(../fonts/vazir/Vazir.ttf);
+}
+.lalezar{
+    font-family: "lalezar";
+}
+.vazir {
+    font-family: "vazir";
+}
+.text-center {
+    text-align: center;
+}
+body {
+    font-size: 18px;
+    font-family: 'yekan';
+}
+.p1 {
+    padding: 10px;
+}
+.p-top10{
+    padding-top: 10px;
+}
+.p-bot10{
+    padding-bottom: 10px;
+}
+.p-top50{
+    padding-top: 50px;
+}
+.p-bot50{
+    padding-bottom: 50px;
+}
+.footer {
+    background-color: rgb(198, 198, 198);}
+.footer-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.header-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 50px;
+    color: #cde2ff;
+}
+header {
+    background-color: rgb(81, 81, 163);
+}
+.title {
+    font-weight: bold;
+    font-size: 30px;
+}
+.desc {
+    line-height: 30px;
+    text-align: justify;
+}
+.img-tile {
+    width: 100%;
+}
+.intro-button {
+    all: unset;
+    border: 2px solid #f7f7f7;
+    border-radius: 8px;
+    padding: 10px 8px 8px;
+    font-weight: bold;
+    transition: all .5s;
+}
+.intro-button:hover {
+    background-color: #ff92c7;
+    border: 2px solid #ff92c7;
+    color: #5151a3;
+    cursor: pointer;
+    font-weight: bold;
+}
+.team-row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 40px 0;
+}
+.t-cards {
+    padding: 15px;
+}
+.team-col {
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    transition: all .5s;
+}
+.team-col:hover {
+    transform: scale(1.05);
+}
+.tm-name {
+    color: #5151a3 ;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+.tm-info {
+    padding: 20px;
+    text-align: justify;
+}
+nav {
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    letter-spacing: 20px;
+    color: #fff;
+}
+.flex-row {
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.col {
+    width: 100%;
+    padding: 15px;
+}
+.cards {
+    width: 100%;
+    padding: 15;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+}
+.card-title {
+    font-weight: bold;
+    padding: 10px 10px 40px;
+}
+.divider {
+    border: none;
+    height: 1px;
+    background: #bdbdbd;
+}
+.card-footer {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+}
+.card-footer button {
+    all: unset;
+    background-color: rgb(95, 198, 230);
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+@media screen and (min-width:768px) {
+    .col {width:50%;}
+    .t-cards{width: 50%;}
+}
+@media screen and (min-width:950px) {
+    .col {width:33.33%;}
+    .t-cards{width: 25%;}
+}
